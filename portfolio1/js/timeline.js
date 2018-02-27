@@ -54,3 +54,9 @@
 
 })(jQuery);
 
+$(function(){
+	$("#timeLine").timeLine({
+		w:8500 
+
+	});
+});
