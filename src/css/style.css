@@ -1,0 +1,54 @@
+body {
+  background: #8db788;
+  color: #f3f3fa; }
+
+.navbar {
+  border-bottom: #9bc995 3px solid;
+  opacity: 0.8; }
+
+#home-section {
+  background: url("../img/home.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #home-section .dark-overlay {
+    background-color: rgba(223, 169, 181, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .card-form {
+    opacity: 0.8; }
+  #home-section .fa {
+    color: #9bc995;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
+
+#chinese-section .fa {
+  color: #f3f3fa;
+  background: #9bc995;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+#deep-section {
+  background-color: #dfa9b5;
+  color: #fff; }
+  #deep-section .fa {
+    color: #9bc995;
+    background: #f3f3fa;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
+
+#reflex-section .fa {
+  color: #f3f3fa;
+  background: #9bc995;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
