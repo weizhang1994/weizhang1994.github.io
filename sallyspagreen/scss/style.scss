@@ -1,0 +1,76 @@
+$primary: #99CC33;
+$primary-overlay: rgba(153, 204, 51, 0.5);
+body{
+  margin-top: 105px;
+}
+.bg-orange{
+  background: #FF6600;
+  color: #fff;
+}
+.border-orange{
+  border:#FF6600;
+}
+.text-orange{
+  color:#FF6600;
+}
+
+.navbar{
+  box-shadow:2px 2px 5px $primary;
+  opacity : 0.9;
+  background: #fff;
+
+  .nav-item{
+    font-size: 1.4rem;
+    padding-right: 20px;
+  }
+}
+
+#showcase{
+  position: relative;
+  background:url('../img/bg1.png');
+  min-height:600px;
+
+  .primary-overlay{
+    background: $primary-overlay;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  }
+}
+
+.info-header{
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #FF6600 solid;
+}
+
+#accordion{
+
+  border:1px #FF6600 solid;
+
+  .card-header{
+  background-color: rgb(255, 102, 0);
+    border:2px #FF6600 solid;
+  }
+}
+
+#therapy{
+  img{
+    margin-top: -50px;
+  }
+
+  .fa{
+    font-size: 25px;
+  }
+
+  .card:hover{
+    background: #FF6600;
+    color: #FFF;
+    
+    .fa{
+      color: #FFF;
+    }
+  }
+}

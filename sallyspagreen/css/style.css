@@ -1,0 +1,55 @@
+body {
+  margin-top: 105px; }
+
+.bg-orange {
+  background: #FF6600;
+  color: #fff; }
+
+.border-orange {
+  border: #FF6600; }
+
+.text-orange {
+  color: #FF6600; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #99CC33;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+
+#showcase {
+  position: relative;
+  background: url("../img/bg1.png");
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(153, 204, 51, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #FF6600 solid; }
+
+#accordion {
+  border: 1px #FF6600 solid; }
+  #accordion .card-header {
+    background-color: #ff6600;
+    border: 2px #FF6600 solid; }
+
+#therapy img {
+  margin-top: -50px; }
+
+#therapy .fa {
+  font-size: 25px; }
+
+#therapy .card:hover {
+  background: #FF6600;
+  color: #FFF; }
+  #therapy .card:hover .fa {
+    color: #FFF; }
