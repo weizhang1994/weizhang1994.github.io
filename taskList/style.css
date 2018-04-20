@@ -1,0 +1,18 @@
+body{
+    background: pink;
+}
+
+.card{
+    background: #f9fbe7;
+    margin-top: 10%;
+    
+}
+
+.card-title{
+    text-align: center;
+}
+
+#task-form{
+    text-align: center;
+}
+
