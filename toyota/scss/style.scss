@@ -1,0 +1,264 @@
+$primary: #c92e23;
+$font-color: #333;
+$font-light:#fff;
+
+body{
+    margin-top: 125px;
+    color: $font-color;
+    font-family: Museo Sans, sans-serif;
+}
+
+.navbar{
+    box-shadow: 2px 2px 5px $primary;
+    opacity: 0.9;
+    background: #fff;
+
+    .navbar-brand{
+        color: black;
+        transition: 0.5s; 
+        font-size:  20px;      
+    }
+   
+    .nav-item{
+        font-size: 16px;
+        padding-right: 9px;
+    }
+
+    p{
+        margin: 0%;
+    }
+   
+}
+
+.main-nav .nav-link{
+    color: #000;
+    font-size:18px;
+    padding: 0;
+}
+
+.main-nav .nav-link:hover, .navbar-brand:hover{
+    text-shadow: 0px 0px 1px rgba(124, 123, 123, 0.7);
+}
+
+
+#home-section{
+    background-image: url('../img/car1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:700px;
+    color:$font-light;
+
+    .home-inner{       
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    #firstline {        
+        margin-bottom:10px;
+
+        #button-group{
+            display:inline-block;
+        }
+
+        button{
+            color: $font-light;
+            background:rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            border: none;
+            margin: 0 9px;
+            font-size: 18px; 
+            padding: 8px 17px 8px 17px;                  
+        }
+
+        #all{
+            border: 1px solid white;            
+        }
+
+        #all:hover{
+            background:rgba(0, 0, 0, 0.9);           
+        }
+
+        button:hover{
+            border: 1px solid white;
+            background:rgba(0, 0, 0, 0.9);            
+        }
+
+        h1{
+            display:inline;     
+            font-size: 30px;
+        }
+    }
+
+    #secondline{
+        .dropdown{
+            margin: 10px 5px 5px 0;
+            display:inline-block;
+            button{
+                color: $font-light;
+                background:rgba(0, 0, 0, 0.5);
+                border: 1px solid white;
+                border-radius: 5px;
+                padding: 10px 18px 10px 10px;
+                font-size: 18px; 
+            }            
+        }
+        .dropdown-menu{
+            font-size: 18px; 
+            background:rgba(0, 0, 0, 0.8);
+
+            .dropdown-item{
+                color: $font-light;                
+            }
+
+            .dropdown-item:hover{
+                border: 1px solid white;
+                border-radius: 5px;
+                background:rgba(0, 0, 0, 0.8);                
+            }
+        }
+        
+        #search{
+            color: $font-light;
+            border: 1px solid white;
+            padding: 10px 18px 10px 10px;
+            font-size: 18px; 
+            border-radius: 0;
+        }
+
+        #search:hover{
+            background:rgba(0, 0, 0, 0.9);
+        }
+    }
+}
+
+
+#model-section{
+    .row{
+        display:flex;
+    }
+    
+    h3{     
+        font-size: 30px;
+    }
+
+    button{ 
+        font-size: 18px;      
+        border-radius: 20px;
+        padding: 8px 18px 8px 10px;
+    }
+
+    button:hover, .selected{
+        border: 1px solid #000;
+        background:$font-light;
+      
+    }
+
+    a{
+        color: $font-color;
+    }
+
+   
+    .card{
+        width:180px;
+        border:none;
+        margin: 15px 10px 5px 10px;
+
+        h5{
+            font-size:17px;
+            text-align: center;           
+        }
+    }
+
+    a:hover{
+        text-decoration: none;
+        text-shadow: 0px 0px 1px rgba(124, 123, 123, 0.7);
+    }
+
+    .hide{
+        display:none;
+    }
+
+}    
+
+
+
+
+
+
+#financing{
+    background-image: url('../img/bg2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:400px;
+    color:$font-light;
+    h3{
+        font-size:30px;
+    }
+    p{
+        font-size:18px;
+    }
+    button{
+        font-size:18px;
+    }
+    button:hover{
+        
+        color: $font-color;
+    }
+}
+
+#welcome{
+    h3{
+        text-align: center;
+        font-size:30px;
+    }
+    p{
+        font-size:18px;
+    }
+}
+
+#welcome-sum{
+    background-image: url('../img/bg1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:200px;
+    text-align: center;
+    ul{
+        list-style-type: none;
+    }
+    color:$font-light;
+    h3{
+        font-size:30px;
+    }
+    p{
+        font-size:18px;
+    }
+}
+
+
+
+
+
+footer{
+    a{
+        margin:8px;
+        color: $font-light;
+        text-decoration: none;
+    }
+    a:hover{
+        color: $font-light;
+        text-decoration: none;
+        text-shadow: 0px 0px 1px rgb(241, 78, 78);
+    }
+}
+
+
+
+@media only screen and (min-width: 600px) {    
+ 
+
+
+} 

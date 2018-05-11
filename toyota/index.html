@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Trader Motors</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="Home">
+  <!-- NAVBAR SECTION -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <h3 ><a class="navbar-brand" href="#"><img src="img/logo.png" width="130" alt="TOYOTA">Trader Motors</a></h3>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse w-100 flex-md-column" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto small mb-md-0">
+                <li class="nav-item ">
+                    <p class="" href="#">Sales: 866-980-3496</p>
+                </li>
+                <li class="nav-item">
+                    <p class="pl-3" href="#">Service: 1(888)643-4139</p>
+                </li>
+                <li class="nav-item">
+                    <p class="pl-3" href="#">Parts: 1(888)555-5555</p>
+                </li>         
+            </ul>
+            <ul class="navbar-nav ml-auto small mb-md-0">
+                <li class="nav-item ">
+                    <p class="" href="#">405 The West Mall TORONTO, ON M9C 5J1</p>
+                </li>       
+            </ul>
+            <div class="main-nav" >
+              <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a href="#home" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">New</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Pre-Owned</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Financing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  <!-- HOME SECTION -->
+  <header id="home-section">
+        <div class="home-inner">
+          <div class="container">           
+               <div id="firstline">
+                  <h1 >I'm interested in
+                  <div id="button-group">
+                      <button type="button" class="btn btn-light">New</button>
+                      <button type="button" class="btn btn-light">Pre-Owned</button>
+                      <button type="button" class="btn btn-light">Certified</button>
+                      <button id="all" type="button" class="btn btn-outline-dark">All</button>
+                  </div>
+                </h1>
+               </div>
+
+                <div id="secondline">
+                    <div class="dropdown">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          All Years
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">2019</a>
+                          <a class="dropdown-item" href="#">2018</a>
+                          <a class="dropdown-item" href="#">2017</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          All Makes
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Buick</a>
+                          <a class="dropdown-item" href="#">Toyota</a>
+                          <a class="dropdown-item" href="#">Honda</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-outline-dark  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          All Body Styles
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">SUV</a>
+                          <a class="dropdown-item" href="#">Minivan</a>
+                          <a class="dropdown-item" href="#">Sedan</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-outline-dark  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          All Kilometers
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">0-10000</a>
+                          <a class="dropdown-item" href="#">10000-50000</a>
+                          <a class="dropdown-item" href="#">>50000</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          All Prices
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">0-10000</a>
+                          <a class="dropdown-item" href="#">10000-20000</a>
+                          <a class="dropdown-item" href="#">>20000</a>
+                        </div>
+                    </div>
+                    <button id="search" type="button" class="btn  btn-outline-secondary">Search</button>
+                  </div>
+        </div>
+      </div>
+    </header>
+  
+    <!-- MODEL SECTION -->
+    <section id="model-section"  >
+      <div class="container">
+        <div class="">
+          <div class="col">
+            <div class="py-5">
+              <h3>Model Selector</h3>
+              <div id="seletor-buttons" class="my-3">
+                  <button type="button" id="SUV"  class="btn  btn-light">SUV</button>
+                  <button type="button" id="Minivan" class="btn  btn-light">Minivan</button>
+                  <button type="button" id="Sedan" class="btn  btn-light selected ">Sedan</button>
+                  <button type="button" id="Coupe" class="btn  btn-light">Coupe</button>
+                  <button type="button" id="Pickup" class="btn  btn-light">Pickup</button>              
+              </div>
+              <div class="container">           
+              <div id="sedanCars" class="container"> 
+                <div class="row">
+                  <a href="#">               
+                    <div class="card">                 
+                        <img class="card-img-top" src="img/sedan0.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Avalon</h5>                
+                        </div>
+                    </div>
+                  </a> 
+                  <a href="#"> 
+                    <div class="card ">                 
+                        <img class="card-img-top" src="img/sedan1.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Camry</h5>
+                        </div>
+                    </div>
+                  </a> 
+                  <a href="#">                    
+                  <div class="card ">                  
+                      <img class="card-img-top" src="img/sedan2.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Corolla</h5>
+                      </div>                     
+                  </div>
+                  </a> 
+                  <a href="#"> 
+                  <div class="card ">       
+                      <img class="card-img-top" src="img/sedan3.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Yaris</h5>
+                      </div>                  
+                  </div>
+                </a> 
+              </div>
+            </div>
+            <div id="suvCars" class="container hide"> 
+              <div class="row">
+                <a href="#">               
+                  <div class="card  ">                 
+                      <img class="card-img-top" src="img/sedan0.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">SUV0</h5>                
+                      </div>
+                  </div>
+                </a> 
+                <a href="#"> 
+                  <div class="card ">           
+                      <img class="card-img-top" src="img/sedan1.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">SUV1</h5>
+                      </div>
+                  </div>
+                </a> 
+                <a href="#">   
+                  <div class="card ">                
+                      <img class="card-img-top" src="img/sedan2.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">SUV2</h5>
+                      </div>                   
+                  </div>
+                </a> 
+              </div>
+            </div>               
+            <div id="minivanCars" class="container hide"> 
+                <div class="row">
+                  <a href="#">               
+                    <div class="card  ">                 
+                        <img class="card-img-top" src="img/sedan0.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Minivan0</h5>                
+                        </div>
+                    </div>
+                  </a> 
+                  <a href="#">                       
+                    <div class="card ">                        
+                        <img class="card-img-top" src="img/sedan2.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Minivan1</h5>
+                        </div>                           
+                    </div>
+                </a> 
+              </div>
+            </div>
+            <div id="coupeCars" class="container hide"> 
+                <div class="row">
+                  <a href="#">               
+                    <div class="card  ">                 
+                        <img class="card-img-top" src="img/sedan0.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">coupeCars0</h5>                
+                        </div>
+                    </div>
+                  </a> 
+                  <a href="#">                       
+                    <div class="card ">                        
+                        <img class="card-img-top" src="img/sedan2.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">coupeCars1</h5>
+                        </div>                           
+                    </div>
+                </a> 
+              </div>
+            </div>
+            <div id="pickupCars" class="container hide"> 
+                <div class="row">
+                  <a href="#">               
+                    <div class="card  ">                 
+                        <img class="card-img-top" src="img/sedan0.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Pickup0</h5>                
+                        </div>
+                    </div>
+                  </a> 
+                  <a href="#">                       
+                    <div class="card ">                        
+                        <img class="card-img-top" src="img/sedan2.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Pickup1</h5>
+                        </div>                           
+                    </div>
+                  </a> 
+                  <a href="#">                       
+                    <div class="card ">                        
+                        <img class="card-img-top" src="img/sedan2.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Pickup3</h5>
+                        </div>                           
+                    </div>
+                  </a> 
+              </div>
+            </div>
+                
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  </div>  
+
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINANCING SECTION -->
+    <section id="financing">
+        <div class="financing-inner">
+          <div class="container p-5" >           
+               <h3 class="pb-5">Lease or Finance Your Ride</h3>
+               <p class="lead pb-5">Don't be intimidated by the financing process. The car loan and lease team at Trader Motors will do the work for you to ensure you get the lowest possible rate on your car loan. We will work with area and national lenders to provide you with options, from low rates to short terms. Come to Trader Motors for your car loan in  Toronto and you won't have to go from bank to bank looking for a great rate. We'll do the work for you.
+                </p>               
+                
+                <button type="button" class="btn btn-outline-light">Apply Now</button>    
+
+          </div>
+        </div>
+    </section>
+
+    <!-- WELCOME SECTION -->
+    
+  <section id="welcome" class="pt-5 mb-5">
+      <div class="container">
+          <h3 class="pb-5">Welcome to Trader Motors</h3>
+        <div class="row ">
+          <div class="col-md-6 align-self-center">           
+              <p>Trader Motors in TORONTO, ON treats the needs of each individual customer with paramount concern. We know that you have high expectations, and as a car dealer we enjoy the challenge of meeting and exceeding those standards each and every time. Allow us to demonstrate our commitment to excellence!</p>           
+          </div>
+          <div class="col-md-6">
+            <img src="img/bg3.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/bg4.jpg" class="img-fluid" alt="">
+              </div>
+            <div class="col-md-6 align-self-center">           
+                <p>Our experienced sales staff is eager to share its knowledge and enthusiasm with you. We encourage you to browse our online inventory, schedule a test drive and investigate financing options. You can also request more information about a vehicle using our online form or by calling 866-980-3496.</p>           
+            </div>
+            
+          </div>
+
+          <div class="row ">
+              <div class="col-md-6 align-self-center">           
+                  <p>If you don't see a particular vehicle, click on CarFinder and complete the form. We will gladly inform you when a matching car arrives. If you'd like a see a vehicle in person, click on Dealership: Directions for step-by-step driving instructions to our site, or give us a call. We look forward to serving you!</p>         
+              </div>
+              <div class="col-md-6">
+                <img src="img/bg6.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+
+
+          
+         
+             
+         
+
+     
+      </div>
+    </section>
+    <div id="welcome-sum" >
+        <div class="container p-5" > 
+          <ul>         
+          <li>Monday:  &nbsp;&nbsp;    9:00am-9:00pm</li>
+          <li>Tuesday:   &nbsp;&nbsp;   9:00am-9:00pm</li>
+          <li>Wednesday:  &nbsp;&nbsp;  9:00am-9:00pm</li>
+          <li>Thursday:  &nbsp;&nbsp;  9:00am-9:00pm</li>
+          <li>Friday:  &nbsp;&nbsp;  9:00am-9:00pm</li>
+          <li>Saturday:   &nbsp;&nbsp; 9:00am-9:00pm</li>
+          <li>Sunday: &nbsp;&nbsp;  close</li>
+        </ul> 
+        </div>
+      </div>
+
+    <!-- footer -->
+    <footer  class="text-center bg-dark p-4">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <a href="#">Directions </a>
+              <a href="#">Contact Us </a>
+              <a href="#">Privacy </a>
+              <a href="#">Terms of Use & Disclaimer  </a>
+              <a href="#">Sitemap </a>
+              <a href="#">AODA Policy </a>
+              <a href="#">Reviews </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+ 
+  
+
+ 
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
