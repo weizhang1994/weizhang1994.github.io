@@ -17,7 +17,7 @@ body {
   min-height: 700px; }
   #home .dark-overlay {
     position: absolute;
-    top: 150;
+    top: 0;
     left: 0;
     width: 100%;
     min-height: 700px;
