@@ -57,7 +57,7 @@ body {
 
   #video-play {
     position: relative;
-    min-height: 300px;
+    min-height: 400px;
     background: url('../img/bg6.jpg');
     background-attachment: fixed;
     background-size:cover;
