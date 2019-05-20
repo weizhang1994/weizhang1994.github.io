@@ -30,7 +30,7 @@ body {
   }
   
   .carousel-image-1 {
-    background: url('../img/bg4.jpg');
+    background: url('../img/bg0.jpg');
     opacity: 0.9;
     background-size: cover;
   } 
@@ -41,7 +41,7 @@ body {
   }
   
   .carousel-image-3 {
-    background: url('../img/bg3.jpg');
+    background: url('../img/bg8.jpg');
     background-size: cover;
   }
 
@@ -81,7 +81,7 @@ body {
   background-repeat: no-repeat ;
   background-attachment: fixed;
   
-  background: rgba(238, 25, 25,0.1 );
+  background: rgba(41, 19, 20,0.4 );
   color:000;
   text-shadow: 2px 2x 3px #000000;
   border-bottom: 1px #eee solid;
