@@ -57,12 +57,12 @@ body {
 
   #video-play {
     position: relative;
-    min-height: 400px;
+    min-height: 350px;
     background: url('../img/bg6.jpg');
     background-attachment: fixed;
     background-size:cover;
     background-repeat: no-repeat ;
-    background-position: 0px 80px;
+/*     background-position: 0px 80px; */
     text-align: center;
     color:  #fff;
     
