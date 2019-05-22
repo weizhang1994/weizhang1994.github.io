@@ -57,12 +57,12 @@ body {
 
   #video-play {
     position: relative;
-    min-height: 450px;
+    min-height: 300px;
     background: url('../img/bg6.jpg');
     background-attachment: fixed;
     background-size:cover;
     background-repeat: no-repeat ;
-    background-position: 0px 50px;
+    background-position: 0px 100px;
     text-align: center;
     color:  #fff;
     
@@ -74,13 +74,14 @@ body {
 
   
 #page-header {
-  height: 200px;
+  height: 250px;
   background: url('../img/aclan4.jpg');
-  
+  background-position: 0px 50px;
   background-size:cover;
   background-repeat: no-repeat ;
   background-attachment: fixed;
- 
+  background-color: rgb(56, 14, 8);
+
   color:  #fff;
   border-bottom: 1px #eee solid;
   padding-top: 50px;
